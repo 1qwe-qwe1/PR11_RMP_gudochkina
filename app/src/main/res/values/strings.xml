@@ -5,4 +5,6 @@
     <string name="sky">Небо</string>
     <string name="clock">Часы</string>
     <string name="hour">Стрелка</string>
+    <string name="star">Звезда</string>
+    <string name="sky_day">Дневное небо</string>
 </resources>

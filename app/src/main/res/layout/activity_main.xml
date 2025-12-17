@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Sky - фон, заполняющий весь экран -->
     <ImageView
         android:id="@+id/sky"
         android:layout_width="0dp"
@@ -20,7 +19,62 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Sun - по центру горизонтально -->
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:contentDescription="@string/star"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/star"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:contentDescription="@string/star"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="60dp"
+        android:src="@drawable/star"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/star"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="236dp"
+        android:src="@drawable/star"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:contentDescription="@string/star"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="64dp"
+        android:src="@drawable/star"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:contentDescription="@string/star"
+        android:layout_marginTop="396dp"
+        android:src="@drawable/star"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/sun"
         android:layout_width="wrap_content"
@@ -32,9 +86,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" /> <!-- Можно настроить положение по вертикали -->
+        app:layout_constraintVertical_bias="0.3" />
 
-    <!-- Grass - внизу экрана -->
     <ImageView
         android:id="@+id/grass"
         android:layout_width="0dp"
@@ -64,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:contentDescription="@string/clock"
+        android:contentDescription="@string/hour"
         android:padding="10dp"
         android:src="@drawable/hour_hand"
         app:layout_constraintBottom_toBottomOf="parent"
